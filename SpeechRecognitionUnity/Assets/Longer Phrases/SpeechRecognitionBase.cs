@@ -33,6 +33,7 @@ public class SpeechRecognitionBase : MonoBehaviour
         {
             Debug.Log("Name: " + device);
         }
+        Debug.Log("sellam");
     }
 
     private void SpeechRecognizer_OnPhraseRecognized(PhraseRecognizedEventArgs args)
